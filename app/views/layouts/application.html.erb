@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<<<<<<< HEAD
 <head>
   <title><%= full_title(yield(:title)) %></title>
   <%= csrf_meta_tags %>
@@ -11,3 +12,19 @@
 <%= yield %>
 </body>
 </html>
+=======
+  <head>
+    <title>SampleApp</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
+
+>>>>>>> static-pages
