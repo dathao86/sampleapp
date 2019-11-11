@@ -12,7 +12,11 @@ class UserTest < ActiveSupport::TestCase
   end
 
   test "name should be present" do
+<<<<<<< HEAD
     @user.name = ""
+=======
+    @user.name = "     "
+>>>>>>> master
     assert_not @user.valid?
   end
 
@@ -72,4 +76,8 @@ class UserTest < ActiveSupport::TestCase
     @user.password = @user.password_confirmation = "a" * 5
     assert_not @user.valid?
   end
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> master
