@@ -5,7 +5,11 @@ ruby '2.6.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
+gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bcrypt',         '3.1.12'
+gem 'faker',          '2.8.0'
+gem 'will_paginate', '3.2.1'
+gem 'bootstrap-will_paginate', '1.0.0'
 gem 'bootstrap-sass', '3.3.7'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -37,7 +41,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 # Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '>= 1.1.0', require: false
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
